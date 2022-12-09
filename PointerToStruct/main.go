@@ -36,8 +36,8 @@ func main() {
         address: &a,
     }
 
-    // becouse address is pointer, we can change address 
-    // of person by change value of a variable
+    // Becouse of address is a pointer, we can change address 
+    // of person by change value of `a` variable
     a.state = "NY"
 
     // Print the values of the fields within the struct

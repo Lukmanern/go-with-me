@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	s := []int{10, 2, -5, 4, 8, -3}
-	fmt.Println(MinMaxSlice(s))
+	fmt.Println(MinMaxSlice(s)) // -5, 10
 }
 
 func MinMaxSlice(s []int) (int, int) {

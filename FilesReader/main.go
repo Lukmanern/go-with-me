@@ -9,7 +9,7 @@ import (
 // SABAR BELOM JADI WKWKWKW
 func main() {
 	filesPath := map[string]string{
-		"txt" : "C:/Users/Lenovo/OneDrive/Documents/Dev Go Project/Files_Reader/text.txt",
+		"txt" : "DONT_FORGET_TO_CHANGE_THIS/Files_Reader/text.txt",
 	}
 	for key, value := range filesPath {
 		if isFileExist(filesPath[key]) {
