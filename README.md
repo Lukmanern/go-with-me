@@ -7,3 +7,11 @@
 - series of articles or blog posts about using Go in real-world projects, along with case studies and best practices.
 
 - collection of useful Go packages and libraries that can be used to build applications or solve specific problems.
+
+# Special Projects
+
+- URL_extractor : for getting all URLs in one-page website
+
+- Pow : Implementing recursion for a-simple-pow
+
+- FilesReader : Read 3-types of file : .txt, .env and .json files (but not finish yet)
