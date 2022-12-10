@@ -10,8 +10,14 @@
 
 # Special Projects
 
-- URL_extractor : for getting all URLs in one-page website
+- URL_Extractor : for getting all URLs in one-page website
 
 - Pow : Implementing recursion for a-simple-pow
 
 - FilesReader : Read 3-types of file : .txt, .env and .json files (but not finish yet)
+
+# Experimental / Not Finish Yet
+
+- HTML Form_Extractor : for getting all tag form (full, that contain all inputs) in one-page website.
+
+- Mock : Not finish yet. Its willbe implementing mock from another go-files.
