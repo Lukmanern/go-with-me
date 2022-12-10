@@ -16,6 +16,8 @@
 
 - FilesReader : Read 3-types of file : .txt, .env and .json files (but not finish yet)
 
+- WebMiddleware : Implementing middleware-log before using method
+
 # Experimental / Not Finish Yet
 
 - HTML Form_Extractor : for getting all tag form (full, that contain all inputs) in one-page website.
