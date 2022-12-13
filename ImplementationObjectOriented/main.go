@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 // Define a struct that represents a person.
-type Person struct {
+// Person define as Object
+type Person struct { 
     // The person's name.
     Name string
     // The person's age.
@@ -12,7 +13,8 @@ type Person struct {
 
 // Define a method for the Person struct that 
 // allows a person to introduce themselves.
-func (p *Person) Introduce() {
+// Pointer of Person make Introduce() define as METHOD
+func (p *Person) Introduce() { 
     fmt.Printf("Hi, my name is %s and I am %d years old.\n", p.Name, p.Age)
 }
 
