@@ -10,8 +10,8 @@ func main() {
 func MinMaxSlice(s []int) (int, int) {
 	// Initialize the min and max value
 	// to the first element of the slice
-	min := s[0]
-	max := s[0]
+	var min int = s[0]
+	var max int = s[0]
 
 	// Iterate over the slice with range
 	for _, v := range s {

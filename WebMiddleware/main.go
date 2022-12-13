@@ -6,8 +6,10 @@ import (
 )
 
 func main() {
+	// with middleware
 	http.HandleFunc("/", logMiddleware(indexHandler))
-	http.HandleFunc("/about", logMiddleware(aboutHandler))
+	// without middleware
+	http.HandleFunc("/about", aboutHandler)
 	http.ListenAndServe(":8080", nil)
 }
 
