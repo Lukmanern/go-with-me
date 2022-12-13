@@ -22,7 +22,7 @@
 
 - If you understand `pointer` properly, you can continue to [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1) and [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2).
 
-- At this point, you should understand if-else & swicth-case statement, looping, slice, struct, pointer and recursive. At this point, you can explore TCP/IP & HTTP/S or Regex or DS-Queue/DS-Stack or CRUD or even Dependency Injection.
+- At this point, you should understand if-else & swicth-case statement, looping, slice, struct, pointer and recursive. At this point, you free to explore more about TCP/IP & HTTP/S or Regex or DS-Queue/DS-Stack or CRUD or even Dependency Injection.
 
 # Special Projects
 
