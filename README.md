@@ -8,7 +8,7 @@
 
 # Where Can I Start?
 
-- First, look at [roadmap.sh/golang](https://roadmap.sh/golang)
+- First, look at [roadmap.sh/golang](https://roadmap.sh/golang), after that you can see all [golang keywords](https://github.com/Lukmanern/go-with-me/tree/master/GoKeywords)
 
 - Then, you can start with [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier), [FizzBuzz_1](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_1), [FizzBuzz_2](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_2), [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2).
 
