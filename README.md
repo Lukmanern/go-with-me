@@ -10,13 +10,13 @@
 
 - First, look at [roadmap.sh/golang](https://roadmap.sh/golang), after that you can see all [golang keywords](https://github.com/Lukmanern/go-with-me/tree/master/GoKeywords)
 
-- Then, you can start with [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier), [FizzBuzz_1](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_1), [FizzBuzz_2](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_2), [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2).
+- Then, you can start with [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier), [FizzBuzz_1](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_1), [FizzBuzz_2](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_2), [Fibonacci_1](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_1).
 
 - To continue, you must understand more `looping style` in Go. You can read [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/).
 
 - Next will be [MinMaxSlice](https://github.com/Lukmanern/go-with-me/tree/master/MinMaxSlice), [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice), [PolindromeSlice](https://github.com/Lukmanern/go-with-me/tree/master/PolindromeSlice), inhere you will understanding slice.
 
-- Next, if you want understand what is `Recursive Function`, you can learn from [Fibonacci_1](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_1), [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial), [Pow](https://github.com/Lukmanern/go-with-me/tree/master/Pow). `Recursive` is confusing to understand, you can watch this [How Recursion Works? - Explained with animation](https://www.youtube.com/watch?v=BNeOE1qMyRA&ab_channel=LiveToCode)
+- Next, if you want understand what is `Recursive Function`, you can learn from [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2), [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial), [Pow](https://github.com/Lukmanern/go-with-me/tree/master/Pow). `Recursive` is confusing to understand, you can watch this [How Recursion Works? - Explained with animation](https://www.youtube.com/watch?v=BNeOE1qMyRA&ab_channel=LiveToCode)
 
 - If you can't understand `Recursive`, it's okey, you can continue to understand struct and pointer. Here you go [PlanetStruct](https://github.com/Lukmanern/go-with-me/tree/master/PlanetStruct), [StructCircle](https://github.com/Lukmanern/go-with-me/tree/master/StructCircle), [PointerToStruct](https://github.com/Lukmanern/go-with-me/tree/master/PointerToStruct), [ImplementationObjectOriented](https://github.com/Lukmanern/go-with-me/tree/master/ImplementationObjectOriented).
 

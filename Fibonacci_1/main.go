@@ -3,34 +3,47 @@ package main
 import "fmt"
 
 func main() {
-	// Call the FibPrinter function with an input of 20.
-	// This will print the first 20 Fibonacci numbers.
-	FibPrinter(20)
+	// Print the first five Fibonacci numbers starting from 1
+	Fib(1, 5) // 1, 1, 2, 3, 5,
+
+	// Print the first five Fibonacci numbers starting from 19
+	Fib(19, 5) // 19, 19, 38, 57, 95,
 }
 
-// FibPrinter loop n-times and print the n result.
-func FibPrinter(n int) {
-	// Loop n-times, starting from 1.
-	for i := 1; i <= n; i++ {
-		// Print the n-th Fibonacci number 
-		// followed by a comma and a space.
-		fmt.Print(Fib(i), ", ")
+
+func Fib(start uint, length uint) {
+	// Check if the starting value is 0 or if the length is less than or equal to 1
+	// If either condition is true, return without printing anything
+	if start == 0 || length <= 1 {
+		return
 	}
+
+	// Store the starting value in a variable called "before"
+	var before uint = start
+
+	// Print the starting value
+	Print(before)
+
+	// Print the second value, which is the same as the starting value
+	Print(start)
+
+	// Loop through the remaining values up to the specified length
+	for i := 3; i <= int(length); i++ {
+		// Calculate the next Fibonacci number by adding the current value to the previous value
+		start = start + before
+
+		// Update the "before" variable to be the current value minus the previous value
+		before = start - before
+
+		// Print the current value
+		Print(start)
+	}
+
+	// Print a newline at the end to separate the different sequences
+	fmt.Println()
 }
 
-// Fib returns the n-th Fibonacci number.
-func Fib(n int) int {
-	// If n is less than 0, return 0.
-	if n < 0 {
-		return 0
-	}
-	
-	// If n is 0 or 1, return n.
-	if n == 0 || n == 1 {
-		return n
-	}
-	
-	// Otherwise, return the sum of the previous two 
-	// Fibonacci numbers (Fib(n-1) + Fib(n-2)).
-	return Fib(n-1) + Fib(n-2)
+// Helper function to print a value followed by a comma and space
+func Print(n uint) {
+	fmt.Print(n, ", ")
 }
