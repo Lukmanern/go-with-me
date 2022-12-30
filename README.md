@@ -30,12 +30,6 @@
 
 - Pow : Implementing recursion for a-simple-pow
 
-- FilesReader : Read 3-types of file : .txt, .env and .json files (but not finish yet)
+- FilesReader : Read 3-types of file : .txt, .env and .json files
 
 - WebMiddleware : Implementing middleware for logging before using method
-
-# Experimental / Not Finish Yet
-
-- Web_Form_Extractor : for getting all tag form (full, that contain all input tags) in one-page website.
-
-- Mock : Not finish yet. It's will be implementing mock from another go-files.
