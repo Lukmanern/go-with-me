@@ -1,4 +1,4 @@
-### newest project : WordsCounter, in_Channel, Fibonacci_Beyond
+### Newest Projects : WordsCounter, in_Channel and Fibonacci_Beyond
 
 # Go With Me
 
