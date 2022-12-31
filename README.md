@@ -8,7 +8,7 @@
 
 - collection of useful Go packages and libraries that can be used to build applications or solve specific problems.
 
-# Where Can I Start?
+# Start from here
 
 - First, look at [roadmap.sh/golang](https://roadmap.sh/golang), after that you can see all [golang keywords](https://github.com/Lukmanern/go-with-me/tree/master/GoKeywords)
 
