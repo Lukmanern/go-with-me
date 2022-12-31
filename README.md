@@ -1,5 +1,3 @@
-# newest project : WordsCounter, in_Channel, Fibonacci_Beyond
-
 # Go With Me
 
 - step-by-step guide on how to use a specific tool or library in Go, complete with code examples and explanations.
