@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+func main() {
+	// Generate (calling) the Fibonacci sequence 
+	// and print it to the console.
+	for n := range fibonacci() {
+		fmt.Println(n)
+		if n > 100 {
+			break
+		}
+	}
+}
+
 // fibonacci is a function that returns a channel
 // that generates the Fibonacci sequence.
 func fibonacci() chan int {
@@ -20,15 +31,4 @@ func fibonacci() chan int {
 	}()
 	// Return the channel to the caller
 	return out
-}
-
-func main() {
-	// Generate (calling) the Fibonacci sequence 
-	// and print it to the console.
-	for n := range fibonacci() {
-		fmt.Println(n)
-		if n > 100 {
-			break
-		}
-	}
 }
