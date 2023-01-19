@@ -2,21 +2,23 @@
 
 # ALL KEYWORDS/ Syntaxes in Go
 
-| Declaration (6) | Composite Types (4) | Control Flow (13) | Fucntion Modifier (2) |
-| --------------- | ------------------- | ----------------- | --------------------- |
-| const           | chan                | break             | go                    |
-| var             | interface           | continue          | defer                 |
-| func            | map                 | default           |                       |
-| type            | struct              | if                |                       |
-| import          |                     | else              |                       |
-| package         |                     | for               |                       |
-|                 |                     | range             |                       |
-|                 |                     | return            |                       |
-|                 |                     | switch            |                       |
-|                 |                     | case              |                       |
-|                 |                     | select            |                       |
-|                 |                     | goto              |                       |
-|                 |                     | fallthrough       |                       |
+| Declaration (6) | Composite Types (4) | Control Flow (13)    | Fucntion Modifier (2) |
+| --------------- | ------------------- | -------------------- | --------------------- |
+| const           | chan                | break                | go                    |
+| var             | interface           | continue             | defer                 |
+| func            | map                 | default `(rare)`     |                       |
+| type            | struct              | if                   |                       |
+| import          |                     | else                 |                       |
+| package         |                     | for                  |                       |
+|                 |                     | range                |                       |
+|                 |                     | return               |                       |
+|                 |                     | switch               |                       |
+|                 |                     | case                 |                       |
+|                 |                     | select `(rare)`      |                       |
+|                 |                     | goto `(rare)`        |                       |
+|                 |                     | fallthrough `(rare)` |                       |
+
+note `(rare)` referred to not common to use. Just it.
 
 ## I. Declaration
 
