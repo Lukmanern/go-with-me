@@ -1,3 +1,5 @@
+![USAGE.PNG](https://raw.githubusercontent.com/Lukmanern/go-supabase/master/CLI_App/usage.png)
+
 # Command
 
 Line Tool
