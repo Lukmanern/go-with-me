@@ -49,7 +49,7 @@ func is_prime(num int) {
 	}
 	if isPrime {
 		fmt.Println("The number is prime.")
-	} else {
-		fmt.Printf("The number is not prime. (can divide by %d)\n", i)
+		return
 	}
+	fmt.Printf("The number is not prime. (can divide by %d)\n", i)
 }
