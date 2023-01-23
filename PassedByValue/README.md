@@ -1,6 +1,6 @@
 # Slice : Passed by Value
 
-in this project we will 'think' deeply about slice in Go.
+in this project we/ you will 'think' deeply about slice in Go.
 
 You can read this bellow :
 
