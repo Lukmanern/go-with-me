@@ -6,7 +6,8 @@ import (
 	"log"
 )
 
-// Define a struct that represents the data we want to
+// Define a struct that
+// represents the data we want to
 // extract from the JSON document.
 type User struct {
 	Name     string `json:"name"`
@@ -23,7 +24,8 @@ func main() {
 		"password": "secret"
 	}
 	`
-	// Use the json.Unmarshal function to parse the JSON data
+	// Use the json.Unmarshal 
+	// function to parse the JSON data
 	// and store the result in a User struct.
 	var user User
 	if err := json.Unmarshal([]byte(jsonData), &user); err != nil {

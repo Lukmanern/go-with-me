@@ -45,7 +45,8 @@ func dfs(person string, network map[string][]string, visited *map[string]bool, g
 	// Iterate through the current person's friends
 	for _, friend := range network[person] {
 		if !(*visited)[friend] {
-			// Use DFS to find all the friends of the current person's friend
+			// Use DFS to find all the friends of 
+			// the current person's friend
 			dfs(friend, network, visited, group)
 		}
 	}

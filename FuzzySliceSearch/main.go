@@ -21,11 +21,13 @@ func main() {
 	// Define a slice of strings to search in.
 	slice := []string{"apple", "banana", "carrot", "daikon"}
 
-	// Search for "an" in the slice. This should return true.
+	// Search for "an" in the slice. 
+	// This should return true.
 	found := fuzzySearch(slice, "an")
 	fmt.Println(found)
 
-	// Search for "z" in the slice. This should return false.
+	// Search for "z" in the slice. 
+	// This should return false.
 	found = fuzzySearch(slice, "z")
 	fmt.Println(found)
 }

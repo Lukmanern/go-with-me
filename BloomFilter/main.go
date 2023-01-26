@@ -31,7 +31,8 @@ func (bf *BloomFilter) Add(element []byte) {
 	}
 }
 
-// Contains checks if an element is possibly in the Bloom filter
+// Contains checks if an element 
+// is possibly in the Bloom filter
 func (bf *BloomFilter) Contains(element []byte) bool {
 	for i := uint(0); i < bf.k; i++ {
 		bf.h.Reset()

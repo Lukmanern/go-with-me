@@ -54,14 +54,17 @@ func checkAllFiles() error {
 func readENV() map[string]string {
 	// Open the file at the specified path
 	file, err := os.Open(envPath)
-	// If there is an error opening the file, log the error and exit
+	// If there is an error opening the 
+	// file, log the error and exit
 	if err != nil {
 		log.Fatal(err)
 	}
-	// Defer closing the file until the function returns
+	// Defer closing the file until 
+	// the function returns
 	defer file.Close()
 
-	// Initialize an empty map to store the key-value pairs
+	// Initialize an empty map to 
+	// store the key-value pairs
 	lines := make(map[string]string)
 	// Create a new scanner to read the file
 	scanner := bufio.NewScanner(file)
@@ -69,14 +72,16 @@ func readENV() map[string]string {
 	for scanner.Scan() {
 		// Split the line by the "=" separator
 		parts := strings.Split(scanner.Text(), "=")
-		// If the line has exactly two parts (a key and a value)
+		// If the line has exactly two 
+		// parts (a key and a value)
 		if len(parts) == 2 {
 			// Add the key-value pair to the map
 			lines[parts[0]] = parts[1]
 		}
 	}
 
-	// If there is an error while scanning the file, log the error and exit
+	// If there is an error while scanning 
+	// the file, log the error and exit
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
@@ -86,18 +91,23 @@ func readENV() map[string]string {
 }
 
 func readJSON() map[string]string {
-	// Read the contents of the file at the specified path
+	// Read the contents of the 
+	// file at the specified path
 	file, err := ioutil.ReadFile(jsonPath)
-	// If there is an error reading the file, log the error and exit
+	// If there is an error reading 
+	// the file, log the error and exit
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// Initialize an empty map to store the data
+	// Initialize an empty map 
+	// to store the data
 	var data map[string]string
-	// Unmarshal the contents of the file into the map
+	// Unmarshal the contents 
+	// of the file into the map
 	err = json.Unmarshal(file, &data)
-	// If there is an error unmarshalling the data, log the error and exit
+	// If there is an error unmarshalling 
+	// the data, log the error and exit
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -109,14 +119,17 @@ func readJSON() map[string]string {
 func readTXT() []string {
 	// Open the file at the specified path
 	file, err := os.Open(txtPath)
-	// If there is an error opening the file, log the error and exit
+	// If there is an error opening the 
+	// file, log the error and exit
 	if err != nil {
 		log.Fatal(err)
 	}
-	// Defer closing the file until the function returns
+	// Defer closing the file until 
+	// the function returns
 	defer file.Close()
 
-	// Initialize an empty slice of strings to store the lines
+	// Initialize an empty slice 
+	// of strings to store the lines
 	var lines []string
 	// Create a new scanner to read the file
 	scanner := bufio.NewScanner(file)
@@ -126,7 +139,8 @@ func readTXT() []string {
 		lines = append(lines, scanner.Text())
 	}
 
-	// If there is an error while scanning the file, log the error and exit
+	// If there is an error while 
+	// scanning the file, log the error and exit
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
