@@ -24,6 +24,8 @@
 
 - At this point, you should understand if-else & swicth-case statement, looping, slice, struct, pointer and recursive. At this point, you free to explore more about TCP/IP & HTTP/S or Regex or DS-Queue/DS-Stack or CRUD or even Dependency Injection.
 
+- Must read blog : [Build a Blog With Go Templates](https://blog.jetbrains.com/go/2022/11/08/build-a-blog-with-go-templates/), [Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/), [A Journey With Go](https://medium.com/a-journey-with-go), [Digital Ocean’s Go Series](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go).
+
 # Special Projects
 
 - Web_URL_Extractor : for getting all URLs in one-page website
