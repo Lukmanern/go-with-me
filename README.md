@@ -42,6 +42,41 @@
 
 - Must read blog/s (i guess) : [Build a Blog With Go Templates](https://blog.jetbrains.com/go/2022/11/08/build-a-blog-with-go-templates/), [Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/), [A Journey With Go](https://medium.com/a-journey-with-go), [Digital Ocean’s Go Series](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go).
 
+# All Project (Top -> Bottom)
+
+| No  | Project                                                                  | Stage              |
+| --- | ------------------------------------------------------------------------ | ------------------ |
+| 1   | [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords) | easy->intermediate |
+| 2   | chan                                                                     | easy               |
+| 3   | chan                                                                     | easy               |
+| 4   | chan                                                                     | easy               |
+| 5   | chan                                                                     | easy               |
+| 6   | chan                                                                     | easy               |
+| 1   | chan                                                                     | easy               |
+| 2   | chan                                                                     | easy               |
+| 3   | chan                                                                     | easy               |
+| 4   | chan                                                                     | easy               |
+| 5   | chan                                                                     | easy               |
+| 6   | chan                                                                     | easy               |
+| 1   | chan                                                                     | easy               |
+| 2   | chan                                                                     | easy               |
+| 3   | chan                                                                     | easy               |
+| 4   | chan                                                                     | easy               |
+| 5   | chan                                                                     | easy               |
+| 6   | chan                                                                     | easy               |
+| 1   | chan                                                                     | easy               |
+| 2   | chan                                                                     | easy               |
+| 3   | chan                                                                     | easy               |
+| 4   | chan                                                                     | easy               |
+| 5   | chan                                                                     | easy               |
+| 6   | chan                                                                     | easy               |
+| 1   | chan                                                                     | easy               |
+| 2   | chan                                                                     | easy               |
+| 3   | chan                                                                     | easy               |
+| 4   | chan                                                                     | easy               |
+| 5   | chan                                                                     | easy               |
+| 6   | chan                                                                     | easy               |
+
 # Special Projects
 
 - Web_URL_Extractor : for getting all URLs in one-page website

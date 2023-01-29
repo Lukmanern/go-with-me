@@ -9,6 +9,8 @@ func main() {
 	using_rare_keywords()
 }
 
+// using rare keyword in Go :
+// fallthrough, goto, end
 func using_rare_keywords() {
 	var input int
 	// Prompt user to enter a number
