@@ -21,6 +21,10 @@ func MinMaxSlice(s []int) (int, int) {
 		if v > max {
 			max = v
 		}
+		// you can print v to know what is v
+		fmt.Print(v, ",")
 	}
+	// print newline
+	fmt.Println()
 	return min, max
 }

@@ -16,6 +16,7 @@ func pos_or_neg(num int) {
 	// Check if the number is positive
 	if num >= 0 {
 		fmt.Println("The number is positive.")
+		// return for stop the func
 		return
 	}
 
@@ -26,6 +27,7 @@ func odd_or_even(num int) {
 	// Check if the number is odd
 	if num%2 != 0 {
 		fmt.Println("The number is odd.")
+		// return for stop the func
 		return
 	}
 
@@ -36,6 +38,7 @@ func is_prime(num int) {
 	// Check if the number is prime
 	if num < 2 {
 		fmt.Printf("The number is not prime. It's lower than 2.")
+		// return for stop the func
 		return
 	}
 	var i		  int
@@ -49,6 +52,7 @@ func is_prime(num int) {
 	}
 	if isPrime {
 		fmt.Println("The number is prime.")
+		// return for stop the func
 		return
 	}
 	fmt.Printf("The number is not prime. (can divide by %d)\n", i)
