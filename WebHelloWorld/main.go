@@ -9,7 +9,8 @@ import (
 func main() {
 	// Handle requests to the root path
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		// Write the "Hello, world!" message to the response
+		// Write the "Hello, world!" 
+		// message to the response
 		logging(r.RemoteAddr, "{__blank__}");
 		fmt.Fprintln(w, "Hello, world!")
 	})
@@ -36,7 +37,8 @@ func main() {
 	http.ListenAndServe("0.0.0.0:8080", nil)
 }
 
-// this is simple logging, read IP Address and URL parameter
+// this is simple logging, 
+// read IP Address and URL parameter
 func logging(ip string, param string) {
 	log.Printf("> ip:%s parameter:%s\n", ip, param)
 }

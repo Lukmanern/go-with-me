@@ -8,7 +8,8 @@ import (
 )
 
 func main() {
-	// Make an HTTP GET request to the website you want to extract URLs from
+	// Make an HTTP GET request to the 
+	// website you want to extract URLs from
 	resp, err := http.Get("https://buildwithangga.com/search?keyword=golang")
 	if err != nil {
 		fmt.Println("Error making HTTP request:", err)

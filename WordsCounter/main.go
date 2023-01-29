@@ -13,13 +13,15 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	input, _ := reader.ReadString('\n')
 
-	// Create a map to store the counts of each word
+	// Create a map to store 
+	// the counts of each word
 	wordCounts := make(map[string]int)
 
 	// Split the input string into words
 	words := strings.Fields(input)
 
-	// Iterate through the words and update the count for each word
+	// Iterate through the words and
+	//  update the count for each word
 	for _, word := range words {
 		wordCounts[word]++
 	}

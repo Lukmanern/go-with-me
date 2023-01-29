@@ -8,7 +8,8 @@ func findGroups(relationships []string) [][]string {
 	// Create a new HashMap to store the relationships
 	network := make(map[string][]string)
 
-	// Iterate through the list of relationships and update the network HashMap
+	// Iterate through the list of 
+	// relationships and update the network HashMap
 	for _, relationship := range relationships {
 		var personA, personB string
 		fmt.Sscanf(relationship, "%s is friends with %s", &personA, &personB)
