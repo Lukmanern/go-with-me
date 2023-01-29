@@ -1,6 +1,6 @@
 # Go With Me
 
-- Learn Go by simple projects.
+- Learning Go Code by Example.
 
 # The way (core) i learn Go is :
 
@@ -11,6 +11,14 @@
 - Struct
 
 - Pointer
+
+- OOP and Dependency Injection
+
+- Web/ HTTP/ net package
+
+- Database // you can see [my simple project](https://github.com/Lukmanern/go-supabase)
+
+- Go for Microservice : Gin/ ECHO
 
 # Start from here
 
