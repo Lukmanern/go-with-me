@@ -47,35 +47,6 @@
 | No  | Project                                                                  | Stage              |
 | --- | ------------------------------------------------------------------------ | ------------------ |
 | 1   | [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords) | easy->intermediate |
-| 2   | chan                                                                     | easy               |
-| 3   | chan                                                                     | easy               |
-| 4   | chan                                                                     | easy               |
-| 5   | chan                                                                     | easy               |
-| 6   | chan                                                                     | easy               |
-| 1   | chan                                                                     | easy               |
-| 2   | chan                                                                     | easy               |
-| 3   | chan                                                                     | easy               |
-| 4   | chan                                                                     | easy               |
-| 5   | chan                                                                     | easy               |
-| 6   | chan                                                                     | easy               |
-| 1   | chan                                                                     | easy               |
-| 2   | chan                                                                     | easy               |
-| 3   | chan                                                                     | easy               |
-| 4   | chan                                                                     | easy               |
-| 5   | chan                                                                     | easy               |
-| 6   | chan                                                                     | easy               |
-| 1   | chan                                                                     | easy               |
-| 2   | chan                                                                     | easy               |
-| 3   | chan                                                                     | easy               |
-| 4   | chan                                                                     | easy               |
-| 5   | chan                                                                     | easy               |
-| 6   | chan                                                                     | easy               |
-| 1   | chan                                                                     | easy               |
-| 2   | chan                                                                     | easy               |
-| 3   | chan                                                                     | easy               |
-| 4   | chan                                                                     | easy               |
-| 5   | chan                                                                     | easy               |
-| 6   | chan                                                                     | easy               |
 
 # Special Projects
 
