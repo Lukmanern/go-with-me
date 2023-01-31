@@ -55,13 +55,19 @@
 | 7   | [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                       | intermediate           |
 | 8   | [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                       | intermediate           |
 | 9   | [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection) | advanced               |
-| 10  | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt)                         | easy                   |
+| 10  | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt) `(delete soon)`         | easy                   |
 | 11  | [EncryptDecrypt](https://github.com/Lukmanern/go-with-me/tree/master/EncryptDecrypt)           | intermediate           |
 | 12  | [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial)                     | easy&rarr;intermediate |
 | 13  | [Fibonacci_1](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_1)                 | easy&rarr;intermediate |
 | 14  | [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2)                 | intermediate           |
-| 15  | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt)                         | easy                   |
-| 16  | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt)                         | easy                   |
+| 15  | [Fibonacci_Beyond](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_Beyond)       | advanced               |
+| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
+| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
+| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
+| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
+| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
+| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
+| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
 
 ### Special Projects
 
