@@ -42,13 +42,22 @@
 
 - Must read blog/s (i guess) : [Build a Blog With Go Templates](https://blog.jetbrains.com/go/2022/11/08/build-a-blog-with-go-templates/), [Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/), [A Journey With Go](https://medium.com/a-journey-with-go), [Digital Ocean’s Go Series](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go).
 
-# All Project (Top -> Bottom)
+### All Project (Top -> Bottom)
 
-| No  | Project                                                                  | Stage              |
-| --- | ------------------------------------------------------------------------ | ------------------ |
-| 1   | [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords) | easy->intermediate |
+| No  | Project                                                                                        | Stage/ Topics      |
+| --- | ---------------------------------------------------------------------------------------------- | ------------------ |
+| 1   | [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords)                       | easy               |
+| 2   | [BloomFilter](https://github.com/Lukmanern/go-with-me/tree/master/BloomFilter)                 | intermediate       |
+| 3   | [CLI_APP_Example](https://github.com/Lukmanern/go-with-me/tree/master/CLI_APP_Example)         | easy->intermediate |
+| 4   | [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1)           | easy->intermediate |
+| 5   | [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2)           | intermediate       |
+| 6   | [ConsumeRestAPI](https://github.com/Lukmanern/go-with-me/tree/master/ConsumeRestAPI)           | easy->intermediate |
+| 7   | [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                       | intermediate       |
+| 8   | [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                       | intermediate       |
+| 9   | [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection) | advanced           |
+| 10  | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt)                         | easy               |
 
-# Special Projects
+### Special Projects
 
 - Web_URL_Extractor : for getting all URLs in one-page website
 
