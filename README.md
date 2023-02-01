@@ -62,12 +62,6 @@
 | 14  | [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2)                 | intermediate           |
 | 15  | [Fibonacci_Beyond](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_Beyond)       | advanced               |
 | 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
-| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
-| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
-| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
-| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
-| 15  | [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                   | easy                   |
-| 16  | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | easy                   |
 
 ### Special Projects
 
