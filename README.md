@@ -22,24 +22,49 @@
 
 ### All Project (Top &rarr; Bottom)
 
-| Project                                                                                        | Stage/ Topics              |
-| ---------------------------------------------------------------------------------------------- | -------------------------- |
-| [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords)                       | beginner                   |
-| [BloomFilter](https://github.com/Lukmanern/go-with-me/tree/master/BloomFilter)                 | intermediate               |
-| [CLI_APP_Example](https://github.com/Lukmanern/go-with-me/tree/master/CLI_APP_Example)         | beginner&rarr;intermediate |
-| [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1)           | beginner&rarr;intermediate |
-| [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2)           | intermediate               |
-| [ConsumeRestAPI](https://github.com/Lukmanern/go-with-me/tree/master/ConsumeRestAPI)           | beginner&rarr;intermediate |
-| [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                       | intermediate               |
-| [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                       | intermediate               |
-| [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection) | advanced                   |
-| [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt) `(delete soon)`         | beginner                   |
-| [EncryptDecrypt](https://github.com/Lukmanern/go-with-me/tree/master/EncryptDecrypt)           | intermediate               |
-| [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial)                     | beginner&rarr;intermediate |
-| [Fibonacci_1](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_1)                 | beginner&rarr;intermediate |
-| [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2)                 | intermediate               |
-| [Fibonacci_Beyond](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_Beyond)       | advanced                   |
-| [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | beginner                   |
+| Project                                                                                            | Stage/ Topics              |
+| -------------------------------------------------------------------------------------------------- | -------------------------- |
+| [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords)                           | beginner                   |
+| [BloomFilter](https://github.com/Lukmanern/go-with-me/tree/master/BloomFilter)                     | intermediate               |
+| [CLI_APP_Example](https://github.com/Lukmanern/go-with-me/tree/master/CLI_APP_Example)             | beginner&rarr;intermediate |
+| [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1)               | beginner&rarr;intermediate |
+| [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2)               | intermediate               |
+| [ConsumeRestAPI](https://github.com/Lukmanern/go-with-me/tree/master/ConsumeRestAPI)               | beginner&rarr;intermediate |
+| [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                           | intermediate               |
+| [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                           | intermediate               |
+| [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection)     | advanced                   |
+| [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt) `(delete soon)`             | beginner                   |
+| [EncryptDecrypt](https://github.com/Lukmanern/go-with-me/tree/master/EncryptDecrypt)               | intermediate               |
+| [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial)                         | beginner&rarr;intermediate |
+| [Fibonacci_1](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_1)                     | beginner&rarr;intermediate |
+| [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2)                     | intermediate               |
+| [Fibonacci_Beyond](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_Beyond)           | advanced                   |
+| [FilesReader](https://github.com/Lukmanern/go-with-me/tree/master/FilesReader)                     | intermediate               |
+| [FizzBuzz_1](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_1)                       | beginner                   |
+| [FizzBuzz_2](https://github.com/Lukmanern/go-with-me/tree/master/FizzBuzz_2)                       | beginner                   |
+| [FuzzyLogic](https://github.com/Lukmanern/go-with-me/tree/master/FuzzyLogic)                       | advanced                   |
+| [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)           | beginner                   |
+| [GoKeywords](https://github.com/Lukmanern/go-with-me/tree/master/GoKeywords)                       | please start here          |
+| [HashMap](https://github.com/Lukmanern/go-with-me/tree/master/HashMap)                             | intermediate               |
+| [HashSet](https://github.com/Lukmanern/go-with-me/tree/master/HashSet)                             | intermediate               |
+| [JSONParsing](https://github.com/Lukmanern/go-with-me/tree/master/JSONParsing)                     | beginner                   |
+| [JustTempratures](https://github.com/Lukmanern/go-with-me/tree/master/JustTempratures)             | beginner                   |
+| [MinMaxSlice](https://github.com/Lukmanern/go-with-me/tree/master/MinMaxSlice)                     | beginner                   |
+| [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier)           | beginner                   |
+| [OOP](https://github.com/Lukmanern/go-with-me/tree/master/OOP)                                     | intermediate               |
+| [Panic](https://github.com/Lukmanern/go-with-me/tree/master/Panic)                                 | beginner                   |
+| [PassedByValue](https://github.com/Lukmanern/go-with-me/tree/master/PassedByValue)                 | beginner                   |
+| [PasswordStrength](https://github.com/Lukmanern/go-with-me/tree/master/PasswordStrength)           | beginner&rarr;intermediate |
+| [PatternSearch](https://github.com/Lukmanern/go-with-me/tree/master/PatternSearch)                 | beginner                   |
+| [PlanetStruct](https://github.com/Lukmanern/go-with-me/tree/master/PlanetStruct)                   | beginner&rarr;intermediate |
+| [PointerStruct](https://github.com/Lukmanern/go-with-me/tree/master/PointerStruct)                 | beginner&rarr;intermediate |
+| [Pow](https://github.com/Lukmanern/go-with-me/tree/master/Pow)                                     | intermediate&rarr;advanced |
+| [Regex](https://github.com/Lukmanern/go-with-me/tree/master/Regex)                                 | intermediate&rarr;advanced |
+| [RemoveDuplicatesSlice](https://github.com/Lukmanern/go-with-me/tree/master/RemoveDuplicatesSlice) | beginner&rarr;intermediate |
+| [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
+| [SimpleGoroutines](https://github.com/Lukmanern/go-with-me/tree/master/SimpleGoroutines)           | intermediate&rarr;advanced |
+| [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
+| [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
 
 ### The way (core) i learn Go is :
 
