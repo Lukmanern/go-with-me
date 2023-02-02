@@ -63,8 +63,16 @@
 | [RemoveDuplicatesSlice](https://github.com/Lukmanern/go-with-me/tree/master/RemoveDuplicatesSlice) | beginner&rarr;intermediate |
 | [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
 | [SimpleGoroutines](https://github.com/Lukmanern/go-with-me/tree/master/SimpleGoroutines)           | intermediate&rarr;advanced |
-| [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
-| [ReverseSlice](https://github.com/Lukmanern/go-with-me/tree/master/ReverseSlice)                   | beginner&rarr;intermediate |
+| [StringAndByte](https://github.com/Lukmanern/go-with-me/tree/master/StringAndByte)                 | beginner                   |
+| [StructCircle](https://github.com/Lukmanern/go-with-me/tree/master/StructCircle)                   | beginner                   |
+| [StructCircle](https://github.com/Lukmanern/go-with-me/tree/master/StructCircle)                   | beginner                   |
+| [WebEndPoint](https://github.com/Lukmanern/go-with-me/tree/master/WebEndPoint)                     | advanced                   |
+| [WebHelloWorld](https://github.com/Lukmanern/go-with-me/tree/master/WebHelloWorld)                 | advanced                   |
+| [WebMiddleware](https://github.com/Lukmanern/go-with-me/tree/master/WebMiddleware)                 | intermediate               |
+| [Web_Form_Extractor](https://github.com/Lukmanern/go-with-me/tree/master/Web_Form_Extractor)       | advanced                   |
+| [Web_URL_Extractor](https://github.com/Lukmanern/go-with-me/tree/master/Web_URL_Extractor)         | advanced                   |
+| [WordsCounter](https://github.com/Lukmanern/go-with-me/tree/master/WordsCounter)                   | advanced                   |
+| [in_Channel](https://github.com/Lukmanern/go-with-me/tree/master/in_Channel)                       | advanced                   |
 
 ### The way (core) i learn Go is :
 
