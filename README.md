@@ -1,26 +1,4 @@
-# Go With Me
-
-- Learning Go Code by Example.
-
-# The way (core) i learn Go is :
-
-- Loop styles
-
-- Recursive (to understand what is stacking and `StackOverFlow`)
-
-- Struct
-
-- Pointer
-
-- OOP and Dependency Injection
-
-- Web/ HTTP/ net package
-
-- Database // you can see [my simple project](https://github.com/Lukmanern/go-supabase)
-
-- Go for Microservice : Gin/ ECHO
-
-# Start from here
+# Go With Me : Start from here
 
 - First, look at [roadmap.sh/golang](https://roadmap.sh/golang), after that you can see all [golang keywords/ syntax](https://github.com/Lukmanern/go-with-me/tree/master/GoKeywords)
 
@@ -62,6 +40,24 @@
 | [Fibonacci_2](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_2)                 | intermediate               |
 | [Fibonacci_Beyond](https://github.com/Lukmanern/go-with-me/tree/master/Fibonacci_Beyond)       | advanced                   |
 | [FuzzySliceSearch](https://github.com/Lukmanern/go-with-me/tree/master/FuzzySliceSearch)       | beginner                   |
+
+### The way (core) i learn Go is :
+
+- Loop styles
+
+- Recursive (to understand what is stacking and `StackOverFlow`)
+
+- Struct
+
+- Pointer
+
+- OOP and Dependency Injection
+
+- Web/ HTTP/ net package
+
+- Database // you can see [my simple project](https://github.com/Lukmanern/go-supabase)
+
+- Go for Microservice : Gin/ ECHO
 
 ### Special Projects
 
