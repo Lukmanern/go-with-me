@@ -26,8 +26,8 @@ func main() {
 
 	// Iterate over the map
 	for k := range m {
-		// Append each key (which is a unique element) 
-		// to the slice
+		// Append each key (which is 
+		// a unique element) to the slice
 		u = append(u, k)
 	}
 

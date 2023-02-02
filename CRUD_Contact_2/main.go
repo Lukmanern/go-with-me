@@ -107,7 +107,8 @@ func main() {
 		fmt.Println("Contact updated")
 	}
 
-	err = contacts.DeleteContact(2) // error -> contact[id] not found
+	err = contacts.DeleteContact(2) 
+	// error -> contact[id] not found
 	if err != nil {
 		fmt.Println(err)
 	} else {

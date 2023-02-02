@@ -25,14 +25,14 @@
 | Project                                                                                            | Stage/ Topics              |
 | -------------------------------------------------------------------------------------------------- | -------------------------- |
 | [BadWords](https://github.com/Lukmanern/go-with-me/tree/master/BadWords)                           | beginner                   |
-| [BloomFilter](https://github.com/Lukmanern/go-with-me/tree/master/BloomFilter)                     | intermediate               |
+| [BloomFilter](https://github.com/Lukmanern/go-with-me/tree/master/BloomFilter)                     | advanced                   |
 | [CLI_APP_Example](https://github.com/Lukmanern/go-with-me/tree/master/CLI_APP_Example)             | beginner&rarr;intermediate |
 | [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1)               | beginner&rarr;intermediate |
 | [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2)               | intermediate               |
 | [ConsumeRestAPI](https://github.com/Lukmanern/go-with-me/tree/master/ConsumeRestAPI)               | beginner&rarr;intermediate |
 | [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                           | intermediate&rarr;advanced |
 | [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                           | intermediate&rarr;advanced |
-| [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection)     | advanced                   |
+| [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection)     | intermediate               |
 | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt) `(delete soon)`             | beginner                   |
 | [EncryptDecrypt](https://github.com/Lukmanern/go-with-me/tree/master/EncryptDecrypt)               | intermediate               |
 | [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial)                         | beginner&rarr;intermediate |

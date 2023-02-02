@@ -29,7 +29,8 @@ func main() {
 	fmt.Print("Enter a phone number: ")
 	fmt.Scanln(&phoneNumber)
 
-	// Check if the phone number matches the regex pattern
+	// Check if the phone number 
+	// matches the regex pattern
 	if phoneRegex.MatchString(phoneNumber) {
 		fmt.Println("The phone number is valid")
 	} else {

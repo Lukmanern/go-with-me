@@ -23,7 +23,8 @@ func fibonacci() chan int {
 		// to the caller that the sequence is complete
 		defer close(out)
 		for i, j := 0, 1; ; i, j = i+j, i {
-			// Send the next number in the sequence on the channel
+			// Send the next number in 
+			// the sequence on the channel
 			out <- i
 			// Calculate the next two numbers in the sequence
 			// i, j = i+j, i (its same, look up)

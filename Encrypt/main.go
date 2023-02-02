@@ -11,7 +11,8 @@ func encryptPassword(password string) string {
 	h.Write([]byte(password))
 	encryptedPassword := h.Sum(nil)
 
-	// Return the hexadecimal representation of the hash
+	// Return the hexadecimal 
+	// representation of the hash
 	return fmt.Sprintf("%x", encryptedPassword)
 }
 

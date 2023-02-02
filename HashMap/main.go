@@ -26,9 +26,11 @@ func findGroups(relationships []string) [][]string {
 	// Iterate through the network HashMap
 	for person := range network {
 		if !visited[person] {
-			// Create a new variable to store the current friend group
+			// Create a new variable to 
+			// store the current friend group
 			var group []string
-			// Use DFS to find all the friends in the current group
+			// Use DFS to find all the 
+			// friends in the current group
 			dfs(person, network, &visited, &group)
 			groups = append(groups, group)
 		}
@@ -40,7 +42,8 @@ func findGroups(relationships []string) [][]string {
 func dfs(person string, network map[string][]string, visited *map[string]bool, group *[]string) {
 	// Mark the current person as visited
 	(*visited)[person] = true
-	// Add the current person to the current friend group
+	// Add the current person 
+	// to the current friend group
 	*group = append(*group, person)
 
 	// Iterate through the current person's friends

@@ -11,7 +11,7 @@ func main() {
 	doubleTheSlice(sl)
 	fmt.Println(sl) // 2, 4, 6, 8, 10,
 
-	addOneInBack(sl) // it's doesn't work. why?? you can README
+	addOneInBack(sl) // it's doesn't work. why?? you can read README
 	fmt.Println(sl) // 2, 4, 6, 8, 10,
 }
 

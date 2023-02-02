@@ -9,13 +9,15 @@ import (
 // go run main.go bye
 // go run main.go hello arg1 arg2 arg3
 func main() {
-	// Define a map of supported commands and their corresponding functions
+	// Define a map of supported commands 
+	// and their corresponding functions
 	commands := map[string]func([]string){
 		"hello": hello,
 		"bye":   bye,
 	}
 
-	// Get the command line arguments passed to the program
+	// Get the command line 
+	// arguments passed to the program
 	args := os.Args[1:]
 
 	// Check if no command was specified
@@ -24,7 +26,8 @@ func main() {
 		return
 	}
 
-	// Get the command and the remaining arguments
+	// Get the command and the 
+	// remaining arguments
 	command := args[0]
 	args = args[1:]
 
@@ -37,7 +40,8 @@ func main() {
 	}
 }
 
-// Define functions for each supported command
+// Define functions for each 
+// supported command
 
 func hello(args []string) {
 	// Print a simple message
