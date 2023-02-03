@@ -26,10 +26,7 @@ func FizzBuzz(n int) {
 			s += "Buzz"
 		}
 		if s == "" {
-			fmt.Println(i)
-			// continue is for skip the 
-			// next process to next iterate
-			continue
+			s = fmt.Sprint(i)
 		}
 		fmt.Println(s)
 	}

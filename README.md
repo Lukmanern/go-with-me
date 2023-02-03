@@ -51,7 +51,7 @@
 | [JustTempratures](https://github.com/Lukmanern/go-with-me/tree/master/JustTempratures)             | beginner                   |
 | [MinMaxSlice](https://github.com/Lukmanern/go-with-me/tree/master/MinMaxSlice)                     | beginner                   |
 | [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier)           | beginner                   |
-| [OOP](https://github.com/Lukmanern/go-with-me/tree/master/OOP)                                     | intermediate               |
+| [OOP](https://github.com/Lukmanern/go-with-me/tree/master/OOP)                                     | beginner                   |
 | [Panic](https://github.com/Lukmanern/go-with-me/tree/master/Panic)                                 | beginner                   |
 | [PassedByValue](https://github.com/Lukmanern/go-with-me/tree/master/PassedByValue)                 | beginner                   |
 | [PasswordStrength](https://github.com/Lukmanern/go-with-me/tree/master/PasswordStrength)           | beginner&rarr;intermediate |

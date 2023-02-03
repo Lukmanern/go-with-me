@@ -23,13 +23,13 @@ func main() {
 	}
 
 	envData := readENV()
-	fmt.Println(envData)
+	fmt.Println("env :\n", envData)
 
 	jsonData := readJSON()
-	fmt.Println(jsonData)
+	fmt.Println("json :\n", jsonData)
 
 	txtData := readTXT()
-	fmt.Println(txtData)
+	fmt.Println("txt :\n", txtData)
 }
 
 func checkAllFiles() error {

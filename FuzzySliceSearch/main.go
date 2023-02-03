@@ -5,18 +5,6 @@ import (
 	"strings"
 )
 
-// fuzzySearch returns a bool indicating whether the search string
-// is found in the slice. It uses the strings.Contains() function
-// to perform a fuzzy search.
-func fuzzySearch(slice []string, search string) bool {
-	for _, s := range slice {
-		if strings.Contains(s, search) {
-			return true
-		}
-	}
-	return false
-}
-
 func main() {
 	// Define a slice of strings to search in.
 	slice := []string{"apple", "banana", "carrot", "daikon"}
@@ -30,4 +18,16 @@ func main() {
 	// This should return false.
 	found = fuzzySearch(slice, "z")
 	fmt.Println(found)
+}
+
+// fuzzySearch returns a bool indicating whether the search string
+// is found in the slice. It uses the strings.Contains() function
+// to perform a fuzzy search.
+func fuzzySearch(slice []string, search string) bool {
+	for _, s := range slice {
+		if strings.Contains(s, search) {
+			return true
+		}
+	}
+	return false
 }
