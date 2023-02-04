@@ -14,11 +14,9 @@
 
 - If you understand `pointer` properly, you can continue to [CRUD_Contact_1](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_1) and [CRUD_Contact_2](https://github.com/Lukmanern/go-with-me/tree/master/CRUD_Contact_2).
 
-- At this point, you should understand `if-else` & `swicth-case statement`, `loop styles`, `slice`, `struct`, `pointer` and `recursive func`. What next is, you free to explore more about TCP/IP & HTTP/S or Regex or DS-Queue/DS-Stack or CRUD or even Dependency Injection.
+- At this point, you should understand `if-else` & `swicth-case statement`, `loop styles`, `slice`, `struct`, `pointer` and `recursive func`. What next is, you free to explore more about TCP/IP & HTTP/S or Regex or DS-Queue/DS-Stack or CRUD or even Dependency Injection. Don't forget to understand how to do `clean code` in Go, you can see [this](https://github.com/Pungyeon/clean-go-article).
 
-- Try to understand how clean code and package is work in Go, it's important.
-
-- Must read blog/s (i guess) : [Build a Blog With Go Templates](https://blog.jetbrains.com/go/2022/11/08/build-a-blog-with-go-templates/), [Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/), [A Journey With Go](https://medium.com/a-journey-with-go), [Digital Ocean’s Go Series](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go).
+- Must read blog/s (i guess) : [Effective Go](https://go.dev/doc/effective_go), [Build a Blog With Go Templates](https://blog.jetbrains.com/go/2022/11/08/build-a-blog-with-go-templates/), [Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/), [A Journey With Go](https://medium.com/a-journey-with-go), [Digital Ocean’s Go Series](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go).
 
 ### All Project (Top &rarr; Bottom)
 
