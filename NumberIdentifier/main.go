@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	var num int = -113 // Example number
-	pos_or_neg(num)
-	odd_or_even(num)
-	is_prime(num)
+	var num int = 113 // Example number
+	posOrNeg(num)
+	oddOrEven(num)
+	isPrime(num)
 }
 
-func pos_or_neg(num int) {
+func posOrNeg(num int) {
 	// Check if the number is positive
 	if num >= 0 {
 		fmt.Println("The number is positive.")
@@ -23,37 +23,42 @@ func pos_or_neg(num int) {
 	fmt.Println("The number is negative.")
 }
 
-func odd_or_even(num int) {
+func oddOrEven(num int) {
+	if num < 0 {
+		fmt.Println("The number is negative, cant check odd or even.")
+		return
+	}
 	// Check if the number is odd
-	if num%2 != 0 {
-		fmt.Println("The number is odd.")
+	if num%2 == 0 {
+		fmt.Println("The number is even.")
 		// return for stop the func
 		return
 	}
 
-	fmt.Println("The number is even.")
+	fmt.Println("The number is odd.")
 }
 
-func is_prime(num int) {
-	// Check if the number is prime
+func isPrime(num int) {
+	// Check if the number is less than 2, which is not a prime number
 	if num < 2 {
-		fmt.Printf("The number is not prime. It's lower than 2.")
-		// return for stop the func
+		fmt.Println("The number is not prime. It's lower than 2.")
 		return
 	}
-	var i		  int
-	var isPrime   bool = true
-	var maxFactor int  = int(math.Sqrt(float64(num)))
-	for i = 2; i <= maxFactor; i++ {
+
+	// Find the maximum factor to check for the number being prime
+	maxFactor := int(math.Sqrt(float64(num)))
+
+	// Loop through all possible factors from 2 to the maxFactor
+	for i := 2; i <= maxFactor; i++ {
+		// Check if the number can be divided by the current factor
 		if num%i == 0 {
-			isPrime = false
-			break
+			fmt.Printf("The number is not prime. (can divide by %d)\n", i)
+			return
 		}
 	}
-	if isPrime {
-		fmt.Println("The number is prime.")
-		// return for stop the func
-		return
-	}
-	fmt.Printf("The number is not prime. (can divide by %d)\n", i)
+
+	// If the number cannot be divided by any of the factors, it's a prime number
+	fmt.Println("The number is prime.")
 }
+
+
