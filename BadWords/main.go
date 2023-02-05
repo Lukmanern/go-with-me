@@ -9,7 +9,8 @@ import (
 var BadWords []string = []string{"fuck", "damn", "crap"}
 
 func main() {
-	input := "How the fuck are you doing that flip?"
+	addBadWords("shit")
+	input := "How the fuck are you doing that flip? shit so cool men !"
 	// call filterBadWords function to filter 
 	// the bad words from input string
 	filteredInput := filterBadWords(input)

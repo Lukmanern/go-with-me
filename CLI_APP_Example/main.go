@@ -5,9 +5,6 @@ import (
 	"os"
 )
 
-// run :
-// go run main.go bye
-// go run main.go hello arg1 arg2 arg3
 func main() {
 	// Define a map of supported commands 
 	// and their corresponding functions
@@ -31,7 +28,7 @@ func main() {
 	command := args[0]
 	args = args[1:]
 
-	// Check if the command is supported
+	// Check if the command is supported (or exist)
 	if fn, ok := commands[command]; ok {
 		// Execute the corresponding function
 		fn(args)

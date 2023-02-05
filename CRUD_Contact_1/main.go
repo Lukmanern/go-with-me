@@ -26,7 +26,7 @@ func (c *Contact) Update(name, phone string) {
 	c.Phone = phone
 }
 
-// Delete the contact
+// Delete the contact (null-ing values)
 func (c *Contact) Delete() {
 	c.Name = ""
 	c.Phone = ""
