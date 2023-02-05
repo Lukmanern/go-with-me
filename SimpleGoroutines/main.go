@@ -7,31 +7,6 @@ import (
 	"time"
 )
 
-// This function generates a random number between 1 and 100.
-// The function uses Go's concurrency features to perform the
-// generation in a separate goroutine, and uses a channel to
-// return the result to the calling function.
-func generateRandomNumber() chan int {
-	// Create a new channel to return the result.
-	result := make(chan int)
-
-	// Start a new goroutine 
-	// to generate the random number.
-	go func() {
-		// Seed the random number 
-		// generator with the current time.
-		rand.Seed(time.Now().UnixNano())
-
-		// Generate the random number 
-		// and send it to the result channel.
-		result <- rand.Intn(100) + 1
-	}()
-
-	// Return the result channel
-	//  to the calling function.
-	return result
-}
-
 func main() {
 	// Use a wait group to wait
 	// for all goroutines to finish.
@@ -62,4 +37,29 @@ func main() {
 	// Wait for all 
 	// goroutines to finish.
 	wg.Wait()
+}
+
+// This function generates a random number between 1 and 100.
+// The function uses Go's concurrency features to perform the
+// generation in a separate goroutine, and uses a channel to
+// return the result to the calling function.
+func generateRandomNumber() chan int {
+	// Create a new channel to return the result.
+	result := make(chan int)
+
+	// Start a new goroutine 
+	// to generate the random number.
+	go func() {
+		// Seed the random number 
+		// generator with the current time.
+		rand.Seed(time.Now().UnixNano())
+
+		// Generate the random number 
+		// and send it to the result channel.
+		result <- rand.Intn(100) + 1
+	}()
+
+	// Return the result channel
+	//  to the calling function.
+	return result
 }

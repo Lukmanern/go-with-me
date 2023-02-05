@@ -5,7 +5,8 @@ import (
 	"math"
 )
 
-// Define a circle type that has a radius field.
+// Define a circle type
+// that has a radius field.
 type Circle struct {
 	Radius float64
 }

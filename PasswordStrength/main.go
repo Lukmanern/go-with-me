@@ -5,6 +5,13 @@ import (
 	"regexp"
 )
 
+func main() {
+	fmt.Println(checkPasswordStrength("P@ssword1"))	// Output: strong
+	fmt.Println(checkPasswordStrength("password"))	// Output: weak
+	fmt.Println(checkPasswordStrength("Passw0rd"))	// Output: medium
+	fmt.Println(checkPasswordStrength("p@ssword"))	// Output: medium
+}
+
 func checkPasswordStrength(password string) string {
 	var strength string
 	var numUpper, numLower, numDigits, numSpecial int
@@ -41,11 +48,4 @@ func checkPasswordStrength(password string) string {
 	}
 	
 	return strength
-}
-
-func main() {
-	fmt.Println(checkPasswordStrength("P@ssword1"))	// Output: strong
-	fmt.Println(checkPasswordStrength("password"))	// Output: weak
-	fmt.Println(checkPasswordStrength("Passw0rd"))	// Output: medium
-	fmt.Println(checkPasswordStrength("p@ssword"))	// Output: medium
 }

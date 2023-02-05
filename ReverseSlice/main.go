@@ -9,7 +9,15 @@ func main() {
 
 	// Print the original slice
 	fmt.Println("Original slice:", s)
+	reverseSlice(s)
 
+	// Print the reversed slice
+	fmt.Println("Reversed slice:", s)
+}
+
+// no need return value
+// see https://github.com/Lukmanern/go-with-me/tree/master/PassedByValue
+func reverseSlice(s []int) {
 	// Reverse the order of the slice
 	// i is from the start => 0
 	// j is from the back => len(s) - 1
@@ -17,7 +25,4 @@ func main() {
 		// Swap
 		s[i], s[j] = s[j], s[i]
 	}
-
-	// Print the reversed slice
-	fmt.Println("Reversed slice:", s)
 }
