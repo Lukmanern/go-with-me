@@ -65,7 +65,8 @@
 | [StructCircle](https://github.com/Lukmanern/go-with-me/tree/master/StructCircle)                             | beginner                   |
 | [StructCircle](https://github.com/Lukmanern/go-with-me/tree/master/StructCircle)                             | beginner                   |
 | [WebEndPoint](https://github.com/Lukmanern/go-with-me/tree/master/WebEndPoint)                               | advanced                   |
-| [WebHelloWorld](https://github.com/Lukmanern/go-with-me/tree/master/WebHelloWorld)                           | advanced                   |
+| [Webfuzzer](https://github.com/Lukmanern/go-with-me/tree/master/Webfuzzer)                                   | advanced                   |
+| [WebHelloWorld](https://github.com/Lukmanern/go-with-me/tree/master/WebHelloWorld)                           | intermediate               |
 | [WebMiddleware](https://github.com/Lukmanern/go-with-me/tree/master/WebMiddleware)                           | intermediate               |
 | [Web_Form_Extractor](https://github.com/Lukmanern/go-with-me/tree/master/Web_Form_Extractor) `(delete soon)` | advanced                   |
 | [Web_URL_Extractor](https://github.com/Lukmanern/go-with-me/tree/master/Web_URL_Extractor)                   | advanced                   |
