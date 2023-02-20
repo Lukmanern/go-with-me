@@ -31,6 +31,7 @@
 | [DS_Queue](https://github.com/Lukmanern/go-with-me/tree/master/DS_Queue)                                     | intermediate               |
 | [DS_Stack](https://github.com/Lukmanern/go-with-me/tree/master/DS_Stack)                                     | intermediate               |
 | [DependencyInjection](https://github.com/Lukmanern/go-with-me/tree/master/DependencyInjection)               | intermediate               |
+| [DoMore](https://github.com/Lukmanern/go-with-me/tree/master/DoMore)                                         | beginner                   |
 | [Encrypt](https://github.com/Lukmanern/go-with-me/tree/master/Encrypt) `(delete soon)`                       | beginner                   |
 | [EncryptDecrypt](https://github.com/Lukmanern/go-with-me/tree/master/EncryptDecrypt)                         | intermediate               |
 | [Factorial](https://github.com/Lukmanern/go-with-me/tree/master/Factorial)                                   | beginner&rarr;intermediate |
