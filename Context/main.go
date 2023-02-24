@@ -15,7 +15,8 @@ func main() {
 	defer cancelFunc()
 
 	// running worker with context
-	// this function will cancel because of limitation time
+	// this function will cancel 
+	// because of limitation time
 	// or because time.Sleep()
 	go worker(ctx, "Hello, World!")
 

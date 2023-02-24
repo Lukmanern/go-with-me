@@ -14,6 +14,56 @@ type Contact struct {
 // Contacts is a map of contacts, where the key is a unique ID for each contact.
 type Contacts map[int]Contact
 
+func main() {
+	// vars
+	var id int
+	var contact Contact
+	var err error
+
+	// Create a new Contacts map.
+	contacts := Contacts{}
+
+	// Add a new contact to the Contacts map.
+	id, err = contacts.AddContact("John Doe", "555-555-5555")
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Contact added with ID", id)
+	}
+
+	// Get a contact from the Contacts map.
+	contact, err = contacts.GetContact(id)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Contact name:", contact.Name)
+		fmt.Println("Contact phone:", contact.Phone)
+	}
+
+	// Update the contact in the Contacts map.
+	err = contacts.UpdateContact(id, "Jane Doe", "444-444-4444")
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Contact updated")
+	}
+
+	err = contacts.DeleteContact(2) 
+	// error -> contact[id] not found
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Contact Deleted")
+	}
+
+	err = contacts.DeleteContact(0) // success
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Contact Deleted")
+	}
+}
+
 // AddContact adds a new contact to the Contacts map.
 func (c *Contacts) AddContact(name, phone string) (int, error) {
 	if name == "" || phone == "" {
@@ -71,54 +121,4 @@ func (c *Contacts) DeleteContact(id int) error {
 
 	delete(*c, id)
 	return nil
-}
-
-func main() {
-	// vars
-	var id int
-	var contact Contact
-	var err error
-
-	// Create a new Contacts map.
-	contacts := Contacts{}
-
-	// Add a new contact to the Contacts map.
-	id, err = contacts.AddContact("John Doe", "555-555-5555")
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Contact added with ID", id)
-	}
-
-	// Get a contact from the Contacts map.
-	contact, err = contacts.GetContact(id)
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Contact name:", contact.Name)
-		fmt.Println("Contact phone:", contact.Phone)
-	}
-
-	// Update the contact in the Contacts map.
-	err = contacts.UpdateContact(id, "Jane Doe", "444-444-4444")
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Contact updated")
-	}
-
-	err = contacts.DeleteContact(2) 
-	// error -> contact[id] not found
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Contact Deleted")
-	}
-
-	err = contacts.DeleteContact(0) // success
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Contact Deleted")
-	}
 }

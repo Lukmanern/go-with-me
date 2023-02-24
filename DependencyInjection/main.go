@@ -8,7 +8,8 @@ type Service interface {
     	DoSomething() string
 }
 
-// The RealService struct is an implementation of the Service interface.
+// The RealService struct is an 
+// implementation of the Service interface.
 type RealService struct{}
 
 // DoSomething is a method of the RealService struct.
@@ -17,7 +18,8 @@ func (s *RealService) DoSomething() string {
     	return "Using real service"
 }
 
-// The FakeService struct is another implementation of the Service interface.
+// The FakeService struct is another 
+// implementation of the Service interface.
 // It can be used as a fake service for testing purposes.
 type FakeService struct{}
 

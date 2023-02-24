@@ -10,7 +10,7 @@ var BadWords []string = []string{"fuck", "damn", "crap"}
 
 func main() {
 	addBadWords("shit")
-	input := "How the fuck are you doing that flip? shit so cool men !"
+	input := "How the fuck are you doing that flip? shit, that was so cool men !"
 	// call filterBadWords function to filter 
 	// the bad words from input string
 	filteredInput := filterBadWords(input)
