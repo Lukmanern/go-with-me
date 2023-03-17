@@ -101,4 +101,4 @@
 
 - FilesReader : Read 3-types of file : .txt, .env and .json files
 
-- WebMiddleware : Implementing middleware for logging before using method
+- WebMiddleware : Implementing middleware for logging before using methods
