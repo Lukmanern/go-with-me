@@ -53,7 +53,7 @@
 | [NumberIdentifier](https://github.com/Lukmanern/go-with-me/tree/master/NumberIdentifier)                     | beginner                   |
 | [OOP](https://github.com/Lukmanern/go-with-me/tree/master/OOP)                                               | beginner                   |
 | [Panic](https://github.com/Lukmanern/go-with-me/tree/master/Panic)                                           | beginner                   |
-| [PassedByValue](https://github.com/Lukmanern/go-with-me/tree/master/PassedByValue)                           | beginner                   |
+| [PassedByReference](https://github.com/Lukmanern/go-with-me/tree/master/PassedByReference)                   | beginner                   |
 | [PasswordStrength](https://github.com/Lukmanern/go-with-me/tree/master/PasswordStrength)                     | beginner&rarr;intermediate |
 | [PatternSearch](https://github.com/Lukmanern/go-with-me/tree/master/PatternSearch)                           | beginner                   |
 | [PlanetStruct](https://github.com/Lukmanern/go-with-me/tree/master/PlanetStruct)                             | beginner                   |
