@@ -6,14 +6,14 @@ import (
 )
 
 func main() {
-	// Define a map of supported commands 
+	// Define a map of supported commands
 	// and their corresponding functions
 	commands := map[string]func([]string){
 		"hello": hello,
 		"bye":   bye,
 	}
 
-	// Get the command line 
+	// Get the command line
 	// arguments passed to the program
 	args := os.Args[1:]
 
@@ -23,7 +23,7 @@ func main() {
 		return
 	}
 
-	// Get the command and the 
+	// Get the command and the
 	// remaining arguments
 	command := args[0]
 	args = args[1:]
@@ -37,9 +37,8 @@ func main() {
 	}
 }
 
-// Define functions for each 
+// Define functions for each
 // supported command
-
 func hello(args []string) {
 	// Print a simple message
 	fmt.Println("Hello, world!")

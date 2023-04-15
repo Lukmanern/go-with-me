@@ -8,14 +8,14 @@ import (
 
 func main() {
 	// set time for do cancelFunc()
-	times := 20*time.Second
+	times := 20 * time.Second
 
 	// Create context with timeout and value
 	ctx, cancelFunc := context.WithTimeout(context.Background(), times)
 	defer cancelFunc()
 
 	// running worker with context
-	// this function will cancel 
+	// this function will cancel
 	// because of limitation time
 	// or because time.Sleep()
 	go worker(ctx, "Hello, World!")

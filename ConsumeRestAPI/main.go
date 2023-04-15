@@ -9,7 +9,7 @@ import (
 
 // Struct to hold a single cat fact
 type CatFact struct {
-    	Fact string `json:"fact"`
+	Fact string `json:"fact"`
 }
 
 func main() {
@@ -20,7 +20,7 @@ func main() {
 		return
 	}
 
-	// Read the response body 
+	// Read the response body
 	// and close the response
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
@@ -29,7 +29,7 @@ func main() {
 		return
 	}
 
-	// Unmarshal the response body 
+	// Unmarshal the response body
 	// into a CatFact struct
 	var fact CatFact
 	err = json.Unmarshal(body, &fact)
