@@ -5,7 +5,7 @@ import (
 )
 
 type Contact struct {
-	Name string
+	Name  string
 	Phone string
 }
 
@@ -32,7 +32,7 @@ func (c *Contact) Create(name, phone string) {
 
 // Read the contact's name and phone number
 func (c *Contact) Read() (string, string) {
-    	return c.Name, c.Phone
+	return c.Name, c.Phone
 }
 
 // Update the contact's name and phone number

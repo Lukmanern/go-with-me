@@ -6,20 +6,20 @@ import "fmt"
 // data structure.
 type Queue []int
 
-// Push adds a new element to 
+// Push adds a new element to
 // the end of the queue.
 func (q *Queue) Push(i int) {
 	*q = append(*q, i)
 }
 
-// Pop removes the first element 
+// Pop removes the first element
 // from the queue and returns it.
 func (q *Queue) Pop() int {
-	// Get the first element 
+	// Get the first element
 	// in the queue.
 	x := (*q)[0]
 
-	// Remove the first element 
+	// Remove the first element
 	// from the queue.
 	*q = (*q)[1:]
 
@@ -30,7 +30,7 @@ func main() {
 	// Create a new queue.
 	q := Queue{}
 
-	// Push some elements 
+	// Push some elements
 	// onto the queue.
 	q.Push(1)
 	q.Push(2)
