@@ -39,6 +39,6 @@ func main() {
 	hs.Add([]byte("golang"))
 
 	// Check if the HashSet contains an element
-	fmt.Println(hs.Contains([]byte("hello")))    // Output: true
-	fmt.Println(hs.Contains([]byte("goodbye")))  // Output: false
+	fmt.Println(hs.Contains([]byte("hello")))   // Output: true
+	fmt.Println(hs.Contains([]byte("goodbye"))) // Output: false
 }

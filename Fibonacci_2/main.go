@@ -12,7 +12,7 @@ func main() {
 func FibPrinter(n int) {
 	// Loop n-times, starting from 1.
 	for i := 1; i <= n; i++ {
-		// Print the n-th Fibonacci number 
+		// Print the n-th Fibonacci number
 		// followed by a comma and a space.
 		fmt.Print(Fib(i), ", ")
 	}
@@ -24,13 +24,13 @@ func Fib(n int) int {
 	if n < 0 {
 		return 0
 	}
-	
+
 	// If n is 0 or 1, return n.
 	if n == 0 || n == 1 {
 		return n
 	}
-	
-	// Otherwise, return the sum of the previous two 
+
+	// Otherwise, return the sum of the previous two
 	// Fibonacci numbers (Fib(n-1) + Fib(n-2)).
 	return Fib(n-1) + Fib(n-2)
 }

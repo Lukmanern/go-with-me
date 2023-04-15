@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// Generate (calling) the Fibonacci sequence 
+	// Generate (calling) the Fibonacci sequence
 	// and print it to the console.
 	for n := range fibonacci() {
 		fmt.Println(n)
@@ -19,11 +19,11 @@ func fibonacci() chan int {
 	// new channel
 	out := make(chan int)
 	go func() {
-		// Defer closing the channel to signal 
+		// Defer closing the channel to signal
 		// to the caller that the sequence is complete
 		defer close(out)
 		for i, j := 0, 1; ; i, j = i+j, i {
-			// Send the next number in 
+			// Send the next number in
 			// the sequence on the channel
 			out <- i
 			// Calculate the next two numbers in the sequence

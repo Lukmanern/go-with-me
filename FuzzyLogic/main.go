@@ -26,7 +26,7 @@ type FuzzySet struct {
 }
 
 func (fs FuzzySet) String() string {
-    	return fmt.Sprintf("%s: %d", fs.label, fs.value)
+	return fmt.Sprintf("%s: %d", fs.label, fs.value)
 }
 
 func Fuzzify(value int, sets []FuzzySet) []FuzzySet {

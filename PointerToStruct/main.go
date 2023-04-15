@@ -7,7 +7,7 @@ type Person struct {
 	// Fields within the struct
 	name string
 	age  int
-	// The address field 
+	// The address field
 	// is a pointer to another struct
 	address *Address
 }
@@ -22,7 +22,7 @@ type Address struct {
 }
 
 func main() {
-	// Create a new instance 
+	// Create a new instance
 	// of the Address type
 	a := Address{
 		street: "123 Main St",
@@ -39,18 +39,17 @@ func main() {
 		address: &a,
 	}
 
-	// Becouse of address is a 
-	// pointer, we can change address 
-	// of person by change 
+	// Becouse of address is a
+	// pointer, we can change address
+	// of person by change
 	// value of `a` variable
 	a.state = "NY"
 
-	// Print the values of the 
+	// Print the values of the
 	// fields within the struct
 	fmt.Printf("%s is %d years old and lives at %s, %s, %s %s\n",
-		p.name, p.age, p.address.street, 
-		p.address.city, p.address.state, 
-		p.address.zip)
+		p.name, p.age, p.address.street,
+		p.address.city, p.address.state,
+		p.address.zip,
+	)
 }
-
-

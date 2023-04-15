@@ -21,7 +21,7 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "> About Page")
 }
 
-// Middleware function to log 
+// Middleware function to log
 // the path of each incoming request
 func logMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {

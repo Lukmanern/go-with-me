@@ -12,14 +12,14 @@ func main() {
 	// for all goroutines to finish.
 	var wg sync.WaitGroup
 
-	// Generate 10 random numbers 
+	// Generate 10 random numbers
 	// in separate goroutines.
 	for i := 0; i < 10; i++ {
-		// Increment the 
+		// Increment the
 		// wait group counter.
 		wg.Add(1)
 
-		// Start a new goroutine 
+		// Start a new goroutine
 		// to generate a random number.
 		go func() {
 			// Generate the random number.
@@ -28,13 +28,13 @@ func main() {
 			// Print the random number.
 			fmt.Println(num)
 
-			// Decrement the 
+			// Decrement the
 			// wait group counter.
 			wg.Done()
 		}()
 	}
 
-	// Wait for all 
+	// Wait for all
 	// goroutines to finish.
 	wg.Wait()
 }
@@ -47,14 +47,14 @@ func generateRandomNumber() chan int {
 	// Create a new channel to return the result.
 	result := make(chan int)
 
-	// Start a new goroutine 
+	// Start a new goroutine
 	// to generate the random number.
 	go func() {
-		// Seed the random number 
+		// Seed the random number
 		// generator with the current time.
 		rand.Seed(time.Now().UnixNano())
 
-		// Generate the random number 
+		// Generate the random number
 		// and send it to the result channel.
 		result <- rand.Intn(100) + 1
 	}()

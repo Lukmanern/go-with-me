@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	// Initialize an escapeList 
+	// Initialize an escapeList
 	// slice with a list of strings
 	escapeList := []string{
 		"%00",
@@ -17,11 +17,11 @@ func main() {
 	}
 
 	// Set the target URL
-	target := "http://ajakan.xyz/?data="
+	target := "http://example.xyz/?data="
 
 	// Loop over the escapeList slice
 	for _, escape := range escapeList {
-		// Concatenate the escape string 
+		// Concatenate the escape string
 		// with the target URL
 		url := target + escape
 
@@ -29,7 +29,7 @@ func main() {
 		req, err := http.NewRequest("GET", url, nil)
 		if err != nil {
 			// If there is an error creating the request,
-			// log an error and continue 
+			// log an error and continue
 			// to the next iteration
 			fmt.Printf("[ERR] %s\n ::1", url)
 			continue
@@ -42,7 +42,7 @@ func main() {
 		resp, err := client.Do(req)
 		if err != nil {
 			// If there is an error executing the request,
-			// log an error and continue 
+			// log an error and continue
 			// to the next iteration
 			fmt.Printf("[ERR] %s\n ::2", url)
 			continue

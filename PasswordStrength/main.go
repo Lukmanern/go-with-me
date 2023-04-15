@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	fmt.Println(checkPasswordStrength("P@ssword1"))	// Output: strong
-	fmt.Println(checkPasswordStrength("password"))	// Output: weak
-	fmt.Println(checkPasswordStrength("Passw0rd"))	// Output: medium
-	fmt.Println(checkPasswordStrength("p@ssword"))	// Output: medium
+	fmt.Println(checkPasswordStrength("P@ssword1")) // Output: strong
+	fmt.Println(checkPasswordStrength("password"))  // Output: weak
+	fmt.Println(checkPasswordStrength("Passw0rd"))  // Output: medium
+	fmt.Println(checkPasswordStrength("p@ssword"))  // Output: medium
 }
 
 func checkPasswordStrength(password string) string {
@@ -46,6 +46,6 @@ func checkPasswordStrength(password string) string {
 	} else {
 		strength = "weak"
 	}
-	
+
 	return strength
 }

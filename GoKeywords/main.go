@@ -21,16 +21,16 @@ func using_rare_keywords() {
 	switch input {
 	case 1:
 		fmt.Println("One")
-		// fallthrough is used here to execute 
-		// the next case statement but this is 
+		// fallthrough is used here to execute
+		// the next case statement but this is
 		// not recommended as it can lead to unexpected behavior
 		fallthrough
 	case 2:
 		fmt.Println("Two")
 	case 3:
 		fmt.Println("Three")
-		// goto statement is used here to jump 
-		// to the end of the function but this is 
+		// goto statement is used here to jump
+		// to the end of the function but this is
 		// not recommended as it can make the code hard to follow
 		goto end
 	default:
@@ -39,7 +39,7 @@ func using_rare_keywords() {
 
 	// select statement is used here to check for timeout
 	select {
-	case <- time.After(time.Second):
+	case <-time.After(time.Second):
 		fmt.Println("Timeout")
 	}
 
@@ -47,4 +47,3 @@ end:
 	// End of function message
 	fmt.Println("End of function")
 }
-

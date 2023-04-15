@@ -5,12 +5,12 @@ import "fmt"
 // Planet represents a celestial
 //  body in our solar system
 type Planet struct {
-	Name       string
-	Mass       float64
-	Diameter   float64
-	Distance   float64
-	NumMoons   int
-	Rings      bool
+	Name     string
+	Mass     float64
+	Diameter float64
+	Distance float64
+	NumMoons int
+	Rings    bool
 }
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 	// Print the name and
 	// distance of each planet
 	for _, planet := range planets {
-		fmt.Printf("%s is %.1f million km away from the Sun\n", 
+		fmt.Printf("%s is %.1f million km away from the Sun\n",
 			planet.Name, planet.Distance/1e6)
 	}
 }

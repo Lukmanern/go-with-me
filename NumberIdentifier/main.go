@@ -60,5 +60,3 @@ func isPrime(num int) {
 	// If the number cannot be divided by any of the factors, it's a prime number
 	fmt.Println("The number is prime.")
 }
-
-

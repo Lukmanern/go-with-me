@@ -14,12 +14,12 @@ func main() {
 	}
 }
 
-// isPalindrome returns true if the given 
+// isPalindrome returns true if the given
 // slice is a palindrome, false otherwise
 func isPalindrome(s []int) bool {
-	// Compare the elements at the start 
+	// Compare the elements at the start
 	// and end of the slice, moving inward
-	// Stop when the pointers meet in the middle 
+	// Stop when the pointers meet in the middle
 	// of the slice i from front/ start, j from back/ end
 	// i < j make i and j meet in middle of slice
 	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {

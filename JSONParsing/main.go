@@ -24,7 +24,7 @@ func main() {
 		"password": "secret"
 	}
 	`
-	// Use the json.Unmarshal 
+	// Use the json.Unmarshal
 	// function to parse the JSON data
 	// and store the result in a User struct.
 	var user User

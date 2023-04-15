@@ -6,10 +6,10 @@ func main() {
 	FizzBuzz(90)
 }
 
-// print 1 to n, replacing numbers that are 
-// divisible by 3 with "Fizz", numbers 
-// that are divisible by 5 with "Buzz", 
-// and numbers that are divisible by 
+// print 1 to n, replacing numbers that are
+// divisible by 3 with "Fizz", numbers
+// that are divisible by 5 with "Buzz",
+// and numbers that are divisible by
 // both 3 and 5 with "FizzBuzz"
 func FizzBuzz(n int) {
 	if n < 3 {
