@@ -11,7 +11,7 @@ var BadWords []string = []string{"fuck", "damn", "crap"}
 func main() {
 	addBadWords("shit")
 	input := "How the fuck are you doing that flip? shit, that was so cool men !"
-	// call filterBadWords function to filter 
+	// call filterBadWords function to filter
 	// the bad words from input string
 	filteredInput := filterBadWords(input)
 	fmt.Println(filteredInput)
@@ -28,6 +28,6 @@ func filterBadWords(input string) string {
 }
 
 // function to add new bad words to the list
-func addBadWords(words... string) {
+func addBadWords(words ...string) {
 	BadWords = append(BadWords, words...)
 }

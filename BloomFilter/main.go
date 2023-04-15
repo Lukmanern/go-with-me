@@ -11,12 +11,12 @@ import (
 // It is probabilistic, meaning that it may produce false
 // positives, but never false negatives.
 type BloomFilter struct {
-	bits []bool // slice of bits used in the Bloom filter
-	k    uint   // number of hash functions to use
+	bits []bool      // slice of bits used in the Bloom filter
+	k    uint        // number of hash functions to use
 	h    hash.Hash64 // hash function
 }
 
-// NewBloomFilter creates a new Bloom filter 
+// NewBloomFilter creates a new Bloom filter
 // with the given number of bits and hash functions
 func NewBloomFilter(m uint, k uint) *BloomFilter {
 	bits := make([]bool, m)
@@ -28,44 +28,43 @@ func NewBloomFilter(m uint, k uint) *BloomFilter {
 func (bf *BloomFilter) Add(element []byte) {
 	for i := uint(0); i < bf.k; i++ {
 		// reset hash
-		bf.h.Reset() 
+		bf.h.Reset()
 		// write element to hash
-		bf.h.Write(element) 
+		bf.h.Write(element)
 		// write i to hash
-		bf.h.Write([]byte(fmt.Sprintf("%d", i))) 
+		bf.h.Write([]byte(fmt.Sprintf("%d", i)))
 		// get index by taking the mod of the sum of the hash
-		index := bf.h.Sum64() % uint64(len(bf.bits)) 
+		index := bf.h.Sum64() % uint64(len(bf.bits))
 		// set the bit at the index to true
-		bf.bits[index] = true 
+		bf.bits[index] = true
 	}
 }
 
-// Contains checks if an element is 
+// Contains checks if an element is
 // possibly in the Bloom filter
 func (bf *BloomFilter) Contains(element []byte) bool {
 	for i := uint(0); i < bf.k; i++ {
 		// reset hash
-		bf.h.Reset() 
+		bf.h.Reset()
 		// write element to hash
-		bf.h.Write(element) 
+		bf.h.Write(element)
 		// write i to hash
-		bf.h.Write([]byte(fmt.Sprintf("%d", i))) 
+		bf.h.Write([]byte(fmt.Sprintf("%d", i)))
 		// get index by taking the mod of the sum of the hash
-		index := bf.h.Sum64() % uint64(len(bf.bits)) 
+		index := bf.h.Sum64() % uint64(len(bf.bits))
 		// if the bit at the index is not set
-		if !bf.bits[index] { 
+		if !bf.bits[index] {
 			// the element is not in the filter
-			return false 
+			return false
 		}
 	}
-	// all bits are set, element 
+	// all bits are set, element
 	// is possibly in the filter
-	return true 
+	return true
 }
 
-
 func main() {
-	// Create a new Bloom filter with 
+	// Create a new Bloom filter with
 	// 100 bits and 5 hash functions
 	bf := NewBloomFilter(100, 5)
 
@@ -75,6 +74,6 @@ func main() {
 	bf.Add([]byte("bloom filter"))
 
 	// Check if the Bloom filter contains an element
-	fmt.Println(bf.Contains([]byte("hello")))    // Output: true
-	fmt.Println(bf.Contains([]byte("goodbye")))  // Output: false
+	fmt.Println(bf.Contains([]byte("hello")))   // Output: true
+	fmt.Println(bf.Contains([]byte("goodbye"))) // Output: false
 }
