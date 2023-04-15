@@ -8,13 +8,13 @@ import "fmt"
 func factorial(n int) int {
 	// Print the value of n to the console.
 	fmt.Println(n)
-	
-	// If n is 0, return 1 as the 
+
+	// If n is 0, return 1 as the
 	// base case for the recursion.
 	if n == 0 {
 		return 1
 	}
-	
+
 	// Otherwise, return n multiplied by the factorial of n-1.
 	// This is the recursive step, where the function calls itself
 	// with a simplified input (n-1) until it reaches the base case.
