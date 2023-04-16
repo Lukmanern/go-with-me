@@ -39,16 +39,24 @@ type unusedVariableVisitor struct {
 }
 
 func (v *unusedVariableVisitor) Visit(node ast.Node) ast.Visitor {
-	// Check for variable declarations
-	if decl, ok := node.(*ast.ValueSpec); ok {
+	// Check for variable usages
+	if ident, ok := node.(*ast.Ident); ok {
 		// Check if the variable is unused
-		if len(decl.Names) == 1 && decl.Names[0].IsExported() && len(decl.Names[0].Name) > 1 {
-			for _, use := range decl.Names[0].Uses {
-				if use != decl.Names[0] {
-					return v
+		if len(ident.Name) > 1 && ident.IsExported() {
+			// Check if the variable has an associated object
+			if ident.Obj != nil && ident.Obj.Kind == ast.Var {
+				// Iterate over the usages of
+				// the variable's definition
+				for _, use := range ident.Obj.Decl.(*ast.ValueSpec).Names {
+					if use != ident {
+						// The variable is used elsewhere,
+						// so it's not unused
+						return v
+					}
 				}
+				// The variable is unused
+				v.unusedVariables = append(v.unusedVariables, ident)
 			}
-			v.unusedVariables = append(v.unusedVariables, decl.Names[0])
 		}
 	}
 	return v
