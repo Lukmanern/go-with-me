@@ -11,10 +11,12 @@ import (
 )
 
 // DONT FORGET TO CHANGE parentPath VALUE
-var parentPath string = "C:/Users/Lenovo/OneDrive/Documents/Dev Go Project/FilesReader/"
-var envPath string = parentPath + ".env"
-var txtPath string = parentPath + "example.txt"
-var jsonPath string = parentPath + "example.json"
+var (
+	parentPath string = "C:/Users/Lenovo/OneDrive/Documents/Dev Go Project/FilesReader/"
+	envPath    string = parentPath + ".env"
+	txtPath    string = parentPath + "example.txt"
+	jsonPath   string = parentPath + "example.json"
+)
 
 func main() {
 	err := checkAllFiles()

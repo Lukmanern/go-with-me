@@ -1,1 +1,1 @@
-# DONT FORGET TO change parentPath value
+# Don't forget to change $parentPath value
